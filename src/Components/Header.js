@@ -7,10 +7,10 @@ const Header = () => {
 
     console.log(window.scrollY);
 
-    if (window.scrollY > 70) {
+    if (window.scrollY >= 80) {
       setShow(true);
-      window.removeEventListener('scroll',changeHeader);
-    } else {
+     
+    } else if(window.screenY <80) {
       setShow(false);
     }
   };
