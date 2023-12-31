@@ -30,8 +30,8 @@ const Header = () => {
 
 </div>) : (
     
-    <div className="bg-red-500 text-white flex h-20 justify-between  items-center ">
-      <div className="ml-5">Vipul Badwaik</div>
+    <div className="bg-slate-950 text-white flex h-20 justify-between  items-center ">
+      <div className="ml-14 text-5xl font-bold italic">VB</div>
       <div className="flex ">
         <h4 className="m-4 p-2 hover:rounded-full hover:text-slate-950 hover:bg-red-300 hover:transition-all ease-in-out delay-100 cursor-pointer">
           About
