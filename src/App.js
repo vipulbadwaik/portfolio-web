@@ -5,7 +5,7 @@ import Intro from "./Components/Intro";
 
 function App() {
   return (
-   <div >
+   <div className="scroll-smooth">
      <Header/>
      <Intro/>
      <Body/>
