@@ -5,7 +5,7 @@ import Intro from "./Components/Intro";
 
 function App() {
   return (
-   <div>
+   <div >
      <Header/>
      <Intro/>
      <Body/>

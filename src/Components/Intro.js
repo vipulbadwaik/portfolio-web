@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Intro = () => {
   return (
-    <div className="h-full bg-slate-950 flex justify-between items-center">
+    <div className="h-full bg-slate-950 flex justify-between items-center pt-20">
       <div className="flex flex-col ml-16">
         <h1 className="text-white text-7xl ">Hi 🙋‍♂️, I am Vipul Badwaik </h1>
         <h1 className="text-white text-7xl"> And I am a
@@ -28,7 +28,7 @@ const Intro = () => {
         </h1>
       </div>
       <div className=" mr-40">
-        <img className="h-96 w-96  " src="https://i.ibb.co/j6JM8SK/IMG-20231113-224346-057-removebg-preview.png"/>
+        <img className="h-96 w-96 drop-shadow-3xl  " src="https://i.ibb.co/j6JM8SK/IMG-20231113-224346-057-removebg-preview.png"/>
       </div>
     </div>
   );
