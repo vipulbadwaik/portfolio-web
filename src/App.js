@@ -1,4 +1,5 @@
-import Body from "./Components/Body";
+import Experience from "./Components/Experience";
+import Body from "./Components/Experience";
 import Header from "./Components/Header";
 import Intro from "./Components/Intro";
 
@@ -8,7 +9,7 @@ function App() {
    <div className="scroll-smooth">
      <Header/>
      <Intro/>
-     <Body/>
+     <Experience/>
      
    </div>
   );

@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Intro = () => {
   return (
     <div className="h-screen bg-slate-950 flex justify-between items-center ">
-      <div className="flex flex-col ml-16">
+      <div className="flex flex-col lg:ml-36">
         <section>
         <h1 className="text-white lg:text-2xl text-xl ">
           Hi 🙋‍♂️, I am 
@@ -32,6 +32,11 @@ const Intro = () => {
               cursorStyle="."
             />
           </h1>
+        </section>
+        <section>
+           <h3>
+             
+           </h3>
         </section>
       </div>
       <div className=" mr-40">
